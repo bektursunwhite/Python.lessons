@@ -81,3 +81,117 @@
 #     print("It's a letter")
 # else:
 #     print("It's a special character")
+
+#### I should practice more <<isdigit, isalpha, isalnum, islower, isupper and isspace>> 
+# 
+# 
+######## The task: We should find the largest number from 3 inputs.. Using "if, elif, else" conditions >>
+
+# num1 = input(int("Please enter your first number: "))
+# num2 = input(int("Please enter your second number: "))
+# num3 = input(int("Please enter your third numbre: "))
+
+# if num1 >= num2 and num1 >= num3:
+#     print(f"The largest number is {num1}")
+# elif num2 >= num1 and num2 >= num3:
+#     print(f"The largest number is {num2}")
+# else:
+#     print(f"The largest number is {num3}")
+################### The wrong one
+
+
+#### Second attepmt:
+# num1 = int(input("Please enter your first number: "))
+# num2 = int(input("Please enter your second number: "))
+# num3 = int(input("Please enter your third numbre: "))
+
+# if num1 >= num2 and num1 >= num3:
+#     print(f"The largest number is {num1}")
+# elif num2 >= num1 and num2 >= num3:
+#     print(f"The largest number is {num2}")
+# else:
+#     print(f"The largest number is {num3}")
+
+####### OR
+
+# num1 = int(input("Please enter your first number: "))
+# num2 = int(input("Please enter your second number: "))
+# num3 = int(input("Please enter your third numbre: "))
+
+# if num1 >= num2 and num1 >= num3:
+#     print("The largest number is first input.")
+# elif num2 >= num1 and num2 >= num3:
+#     print("The largest number is second input.")
+# else:
+#     print("The largest number is third input.")
+
+
+
+#### Task number 4. Password checker... >> 
+
+# password = input("Please eneter your password: ")
+
+# if len(password) >= 8 and any(char.isdigit() for char  in password) and any(char.isalpha() for char in password):
+#     print("This is a strong password.")
+# else:
+#     print("This is a weak password.") 
+
+################# Should practice more -> <<isdigit, isalpha, len(input)>>
+
+
+#### Task number 5. Checking even/odd numbers.. >>
+
+# number = int(input("Please enter a number/digit: "))
+
+# if number > 0:
+#     if number % 2 == 0:
+#         print("Positive even.")
+#     else:
+#         print("Positive odd.")
+# elif number < 0: 
+#     if number % 2 == 0:
+#         print("Negative even.") 
+#     else:
+#         print("Negative odd")
+
+# else:
+#     print("This number is 0.")
+
+###################### OR 
+
+# number = int(input("Please enter a number/digit: "))
+
+# if number > 0:
+#     if number % 2 == 0:
+#         print(f"{number} is positive even.")
+#     else:
+#         print(f"{number} is positive odd.")
+# elif number < 0: 
+#     if number % 2 == 0:
+#         print(f"{number} is negative even.") 
+#     else:
+#         print(f"{number} is negative odd")
+
+# else:
+#     print("This number is 0.")
+
+
+
+
+
+#### Task number 6. Age classifier.. >>>
+
+# age = int(input("Please enter your age: "))
+
+# if 0 <= age <= 12: 
+#     print("Child")
+# elif 13 <= age <= 19: 
+#     print("Teenager")
+# elif 20 <= age <= 59:
+#     print("Adult")
+# elif 60 <= age: 
+#     print("Senior Citizen")
+# else: 
+#     print("Invalid Input")
+
+############################### 
