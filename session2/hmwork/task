@@ -1,0 +1,34 @@
+### Trying to count vowels in input: 
+
+sentence = input("Please enter a word: ")
+
+vowel = "aeiouAEIOU" 
+vowel_count = sum(1 for char in sentence if char in vowel)
+print(vowel_count) 
+
+########## in this task i learnt about "sum". As i understand "sum" gives us a total of smt.. 
+# Example(from ChatGpt):
+
+# numbers = [1, 2, 3, 4, 5]
+# total = sum(numbers)
+# print(total)
+
+# This adds 1 + 2 + 3 + 4 + 5 = 15. And the output should be 15. 
+
+
+########## Let's do the same task but with a tool that we have learnt with Esen. >> 
+ 
+sentence = input("Please enter your word: ")
+
+vowel = "aeiouAEIOU"
+
+vowel_counter = 0
+for char in sentence:
+     if char in vowel: 
+         vowel_counter += 1
+print(vowel_counter) 
+
+########### Now it feels familiar to me.. But smt new here is "+=".,  So "+=" will increase counter one by one.
+#### Examples: counter == counter + 1 
+#              counter += 1       (both options are the same)  
+

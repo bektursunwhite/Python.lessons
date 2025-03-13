@@ -1,0 +1,164 @@
+# What is the program? - Set of instructions / Algorithm
+# Data Types:
+#     -> Integer
+#     -> Float
+#     -> String
+
+# print() function
+# input() function
+
+# math operators (+ | - | * | / | // | ** | % )
+
+# what is the difference between interpreted and compiled language?
+
+# Numeric Data Type
+# - Binary - 0b ----> 01010101
+# - Octal - 0o  ----> 0-7
+# - Hexidecimal - 0x -> 16 --> 0-9 abcdf
+
+# prints 21
+# print(0b010101)
+
+# # convert 21 to binary
+# print(bin(21))
+# print(oct(21))
+# print(hex(21))
+
+
+# word1 = "Hello "
+# "HelloHelloHello"
+# # word2 = "World"
+
+# # combined = word1 + word2
+# print(word1 * 3)
+
+
+######### Boolean
+# Boolean data types True or False
+# Usage: if/else conditions 1 == 1 = True
+
+# if 1 == 1:
+#     print("It one")
+
+# Operators
+# <
+# <=
+# >
+# >=
+# ==
+
+
+# 0 | 1
+
+# inp = int(input("Please provide a number: "))  ## 10
+
+# if inp <= 10:
+#     print("The number is less or equal to 10")
+# else:
+#     print("The number is bigger than 10")
+
+
+# class task 1:
+# take the word input (string)
+# find the length of the word
+# if the length is more than 10
+# print("THAT'S A LONG WORD. IT HAS {length of the word} characters")
+# else
+# print("The word has {length of the word} characters")
+
+# Example:
+# Input:
+# Please provide a word: aKumoSolutions
+
+# Output:
+# THAT'S A LONG WORD. IT HAS 14 characters
+
+# indentations ---> part of the python syntax
+# fstring ---> gives ability to insert varible to your string
+
+# word = input("Please provide a word: ")
+# length = len(word)  # 4
+
+# if length > 10:
+#     print(f"THAT'S A LONG WORD. IT HAS {length} characters")
+# else:
+#     print(f"The word has {length} characters")
+
+
+# Operators
+# <
+# <=
+# >
+# >=
+# == - equal
+# != - not equal
+
+# Boolean Operators
+# not, and, or
+
+# and | or --> combines 2 or more booleans together
+# if num < 10 and num > 0
+
+# any false given to true would result to false
+# and ---> True and True == True
+#     ---> True and False == False
+#     ---> False and False == False
+
+# or will try to find the True
+# or ---> True or True == True
+#     ---> True or False or False or False == True
+#     ---> False or False == False
+
+# not ---> will turn boolean to opposite
+# not True ---> False
+# not False ---> True
+
+# num = -10
+# if num < 10 and num > 0:
+#     print("Inside of if condition")
+# else:
+#     print("Inside of else condition")
+
+
+# (True and True or False or False) --->
+# print(True and True or False or False)
+
+
+# (False and False or not True or True)
+
+# print(not True or not False and True and not True or False)
+
+
+# Write a program that will do the following
+# 1. Takes integer input
+# 2. checks if integer is positive (If the number is negative, print("Hey, give me positive number !!!"))
+# 3. check if the integer is even or odd (odd = 21 / 2 | even = 4 / 2)
+# 4. Prints the following: "The number is even/odd"
+
+# if num > 0:
+
+# else:
+#     print(The number is negative)
+
+# Example:
+# num = 10
+# Output: This number is even
+
+# num = 5
+# Output: This number is odd
+
+# num = int(input("Please provide a number: "))
+
+# if num >= 0:
+#     if num % 2 == 0:  # True
+#         print("Even")
+#     else:
+#         print("Odd")
+# else:
+#     print("Hey, give me positive number !!!")
+
+
+# Boolean Data Type === True or False
+# and, or, not
+# Importance of identations
+# fstring
